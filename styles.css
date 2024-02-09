@@ -17,6 +17,9 @@ p {
     color: rgb(85, 85, 85);
 }
 
+/* Navigation Bar
+*/
+
 a, .btn {
     transition: all 300ms ease;
 }
@@ -136,7 +139,7 @@ a:hover {
     opacity: 1;
 }
 
-/* Sections
+/* About Section
 */
 
 .profile-picture {
@@ -149,39 +152,39 @@ a:hover {
     height: 100%;
     object-fit: cover;
     height: auto;
-    max-width: 378px; /* This sets the maximum size of the image container */
-    border-radius: 10px; /* Adjust to match the border-radius of your design */
-    overflow: hidden; /* This ensures the border-radius clips the image */
+    max-width: 378px; 
+    border-radius: 10px; 
+    overflow: hidden; 
 }
 
 #profile {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 100px; /* Adjust the padding as needed */
+    padding: 100px; 
 }
 
 .profile-text {
-    max-width: 50%; /* Adjust width as needed */
+    max-width: 50%; 
 }
 
 .profile-text h1 {
-    font-size: 2.5rem; /* Adjust font size as needed */
-    margin-bottom: 20px; /* Adjust spacing as needed */
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
 }
 
 .profile-text p {
-    font-size: 1rem; /* Adjust font size as needed */
-    color: #555; /* Adjust text color as needed */
-    margin-bottom: 20px; /* Adjust spacing as needed */
+    font-size: 1rem; 
+    color: #555; 
+    margin-bottom: 20px; 
 }
 
 .btn {
     display: inline-block;
-    padding: 10px 20px; /* Adjust padding as needed */
-    background-color: #000; /* Adjust button color as needed */
-    color: #fff; /* Adjust text color as needed */
+    padding: 10px 20px; 
+    background-color: #000; 
+    color: #fff; 
     text-decoration: none;
-    margin-right: 10px; /* Adjust spacing between buttons as needed */
-    border-radius: 5px; /* Adjust as needed for rounded corners */
+    margin-right: 10px; 
+    border-radius: 5px; 
 }
