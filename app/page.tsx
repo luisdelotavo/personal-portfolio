@@ -5,10 +5,8 @@ export default function Home() {
   return (
 
     <>
-    <body>
     <NavigationBar/>
     <About/>
-    </body>
     </>
   );
 }
