@@ -66,4 +66,70 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 100px; 
+  padding-bottom: 120px;
+}
+
+/* Projects section
+*/
+
+.projects-text {
+  max-width: 50%; 
+}
+
+.projects-text h1 {
+  font-size: 2.5rem; 
+  font-weight: 680;
+}
+
+#projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px; 
+  padding-bottom: 50px;
+  padding-top: 100px;
+}
+
+.project-card {
+  height: 24rem;
+  width: 18rem;
+  transition-duration: 150ms;
+  cursor: pointer;
+  margin-right: 55px;
+  user-select: none;
+}
+
+.project-card:hover {
+  transform: translateY(-0.25rem);
+}
+
+.project-container {
+  overflow-x: auto;
+  display: flex;
+  padding-left: 100px;
+  user-select: none;
+  cursor: grab;
+}
+
+.project-container::-webkit-scrollbar {
+  width: 0; 
+}
+
+/* Footer section
+*/
+
+#footer-section {
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px; 
+}
+
+.footer-text {
+  max-width: 50%; 
+}
+
+.footer-text h1 {
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
+  font-weight: 680;
 }

@@ -9,9 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@material-tailwind/react": "^2.1.9",
     "next": "14.1.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-horizontal-scrolling-menu": "^5.0.1",
     "react-rough-notation": "^1.0.5",
     "rough-notation": "^0.5.1"
   },
