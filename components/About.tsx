@@ -24,15 +24,11 @@ return (
 </RoughNotationGroup>
 
       <a href="https://www.linkedin.com/in/luisdelotavo/" target="_blank" rel="noopener noreferrer" className="btn">View LinkedIn</a>
-      <a href="https://github.com/luisdelotavo" target="_blank" rel="noopener noreferrer" className="btn">View GitHub</a>
+      <a href="https://github.com/luisdelotavo" target="_blank" rel="noopener noreferrer" className="btn">Download Resume</a>
   </div>
 
-  <div className="profile-picture relative"> 
-      <Image src="/portfoliopicture.jpg" className="rounded-xl"
-      alt="Luis Delotavo profile picture"
-      width={378}
-      height={504}
-      quality={100}/>
+  <div className="profile-picture"> 
+      <img className="image-container rounded-xl" src="/portfoliopicture.jpg" alt="project-image"/>
   </div>
 </section>
 );
