@@ -12,7 +12,6 @@ export default function Home() {
     <NavigationBar/>
     <About/>
     <Projects/>
-    <Experience/>
     <Contact/>
     <Footer/>
     </>

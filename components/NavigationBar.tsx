@@ -9,8 +9,9 @@ return (
     <div>
       <ul className="nav-links flex gap-8">
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact</a></li>
         <li><a href="#experiences">Experiences</a></li>
-        <li><a href="#contact">Contact</a></li>
+
       </ul>
     </div>
   </nav>

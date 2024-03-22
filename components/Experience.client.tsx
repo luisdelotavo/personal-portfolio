@@ -1,3 +1,5 @@
+/* May be added in future versions of portfolio
+*/
 'use client';
 import React, { useEffect } from 'react';
 
