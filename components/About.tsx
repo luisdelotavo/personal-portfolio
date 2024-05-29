@@ -16,13 +16,12 @@ return (
       the fundamentals of <RoughNotation type="highlight" color={colors.yellow}>engineering, design,</RoughNotation> and various <RoughNotation type="highlight" color={colors.yellow}>frameworks.</RoughNotation> Over the course of my studies, I've had the opportunity to work with both small and large, specialized and cross-functional teams and have developed
       the ability to lead, collaborate, and create. </p>
       <p> 
-      My interests include <RoughNotation type="highlight" color={colors.blue}>artificial intelligence/machine learning, blockchain, </RoughNotation>
-      and <RoughNotation type="highlight" color={colors.blue}>data cloud </RoughNotation><RoughNotation type="highlight" color={colors.blue}>management.</RoughNotation>
-       If you're here recruiting,<RoughNotation type="circle" color={colors.red}> hire me..?</RoughNotation></p>
+      My interests include <RoughNotation type="highlight" color={colors.blue}>artificial intelligence</RoughNotation>/<RoughNotation type="highlight" color={colors.blue}>machine</RoughNotation> <RoughNotation type="highlight" color={colors.blue}>learning</RoughNotation>, <RoughNotation type="highlight" color={colors.blue}>blockchain, </RoughNotation>
+       and <RoughNotation type="highlight" color={colors.blue}>data cloud </RoughNotation><RoughNotation type="highlight" color={colors.blue}>management. </RoughNotation> If you're here recruiting,<RoughNotation type="circle" color={colors.red}> hire me..?</RoughNotation></p>
 </RoughNotationGroup>
 
       <a href="https://www.linkedin.com/in/luisdelotavo/" target="_blank" rel="noopener noreferrer" className="btn">View LinkedIn</a>
-      <a href="https://github.com/luisdelotavo" target="_blank" rel="noopener noreferrer" className="btn">Download Resume</a>
+      <a href="/Delotavo_Luis.pdf" download="LuisDelotavo_Resume.pdf" target="_blank" rel="noopener noreferrer" className="btn">Download Resume</a>
   </div>
 
   <div className="profile-picture"> 
