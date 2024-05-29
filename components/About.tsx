@@ -1,5 +1,6 @@
 import React from 'react';
 import { RoughNotation, RoughNotationGroup } from 'react-rough-notation';
+import Image from 'next/image';
 
 const About = () => {
 
@@ -25,8 +26,8 @@ return (
   </div>
 
   <div className="profile-picture"> 
-      <img className="image-container rounded-xl" src="/portfoliopicture.jpg" alt="project-image"/>
-  </div>
+        <Image className="image-container rounded-xl" src="/portfoliopicture.jpg" alt="project-image" width={500} height={500}/>
+      </div>
 </section>
 );
 };
