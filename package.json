@@ -16,7 +16,8 @@
     "react-dom": "^18.2.0",
     "react-horizontal-scrolling-menu": "^5.0.1",
     "react-rough-notation": "^1.0.5",
-    "rough-notation": "^0.5.1"
+    "rough-notation": "^0.5.1",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@types/node": "^20",
