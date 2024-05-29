@@ -4,11 +4,11 @@ import Image from 'next/image';
 
 const Projects: React.FC = () => {
   return (
-    <section id="projects" className="font-poppins section-container pb-10">
+    <section id="projects" className="font-poppins section-container pb-10 pt-2">
       <div className="project-text mb-2">
         <h1>Projects</h1>
         <p>
-          Some projects that I'd like to showcase. However, all my other repositories are on my GitHub.
+          Some projects that I&apos;d like to showcase. However, all my other repositories are on my GitHub.
           <a href="https://github.com/luisdelotavo" target="_blank" rel="noopener noreferrer" className="github-link">
             <Image src={githubIcon} alt="GitHub" className="github-icon" width={24} height={24} />
           </a>
@@ -24,19 +24,19 @@ const Projects: React.FC = () => {
           </div>
           <div className="terminal-window">
             <div className="statement">
-              <div className="input-statement">projects.search('machine learning')</div>
+              <div className="input-statement">projects.search(&apos;machine learning&apos;)</div>
               <div className="return-statement"> &#123;
-                title: <a href="https://github.com/luisdelotavo/premier-league-predictor" target="_blank" rel="noopener noreferrer" className="project-title">"English Premier League Predictor"</a>, <br />
-                date: "November 2022", <br />
+                title: <a href="https://github.com/luisdelotavo/premier-league-predictor" target="_blank" rel="noopener noreferrer" className="project-title">&quot;English Premier League Predictor&quot;</a>, <br />
+                date: &quot;November 2022&quot;, <br />
                 description: <br />
-                [ 'Designed and implemented an 84% accurate predictive model to forecast <br />
+                [ &apos;Designed and implemented an 84% accurate predictive model to forecast <br />
                 the outcomes of English Premier League (EPL) football matches, utilizing Python, <br />
-                Jupyter Notebooks, and advanced analytics with the pandas and sklearn libraries.', <br />
-                'Using a RandomForestClassifier model which is trained with predictors like rolling <br />
-                averages, shots, goals attempted, free-kicks, penalty kicks, and etc.'
+                Jupyter Notebooks, and advanced analytics with the pandas and sklearn libraries.&apos;, <br />
+                &apos;Using a RandomForestClassifier model which is trained with predictors like rolling <br />
+                averages, shots, goals attempted, free-kicks, penalty kicks, and etc.&apos;
                 ], <br />
                 technologies: [
-                  "Python", "Jupyter Notebooks"
+                  &quot;Python&quot;, &quot;Jupyter Notebooks&quot;
                 ]
                 &#125;
               </div>
@@ -57,14 +57,14 @@ const Projects: React.FC = () => {
               <div className="statement">
                 <div className="input-statement">projects.pop()</div>
                 <div className="return-statement"> &#123;
-                title: <a href="https://github.com/luisdelotavo/se3316-ldelotav-ddeleon5-echevari-lab4" target="_blank" rel="noopener noreferrer" className="project-title">"Western Waves"</a>, <br />
-                  date: "October 2022", <br />
+                title: <a href="https://github.com/luisdelotavo/se3316-ldelotav-ddeleon5-echevari-lab4" target="_blank" rel="noopener noreferrer" className="project-title">&quot;Western Waves&quot;</a>, <br />
+                  date: &quot;October 2022&quot;, <br />
                   description: <br /> [
-                    'Built a web application deployed on AWS that allows users to find and discover music from different artists, genres, and <br />
-                    tracks. Additionally, users can create new playlists and add tracks to it.', <br />
-                    'Developed and integrated a RESTful framework using Node.js to interface with a MongoDB database, enabling efficient fetching, manipulation, and deletion of data across thousands of entries.'
+                    &apos;Built a web application deployed on AWS that allows users to find and discover music from different artists, genres, and <br />
+                    tracks. Additionally, users can create new playlists and add tracks to it.&apos;, <br />
+                    &apos;Developed and integrated a RESTful framework using Node.js to interface with a MongoDB database, enabling efficient fetching, manipulation, and deletion of data across thousands of entries.&apos;
                   ], <br />
-                  technologies: [ "JavaScript", "React", "MongoDb", "Node.js", "Amazon Web Services" ]
+                  technologies: [ &quot;JavaScript&quot;, &quot;React&quot;, &quot;MongoDb&quot;, &quot;Node.js&quot;, &quot;Amazon Web Services&quot; ]
                   &#125;
                 </div>
               </div>
@@ -83,14 +83,14 @@ const Projects: React.FC = () => {
               <div className="statement">
                 <div className="input-statement">projects[10]</div>
                 <div className="return-statement"> &#123;
-                  title: <a href="https://github.com/luisdelotavo/xenos" target="_blank" rel="noopener noreferrer" className="project-title">"Xenos"</a>, <br />
-                  date: "April 2021", <br />
+                  title: <a href="https://github.com/luisdelotavo/xenos" target="_blank" rel="noopener noreferrer" className="project-title">&quot;Xenos&quot;</a>, <br />
+                  date: &quot;April 2021&quot;, <br />
                   description: <br /> [
-                    'Created a 3D adventure game following an iterative software development life cycle model', <br />
-                    'Contained 3 different environments, 5 playable characters, ranged and melee combat, inventory selection, a currency system, and much more', <br />
-                    'Utilized Blender to enhance the effects and animations of pve combat'
+                    &apos;Created a 3D adventure game following an iterative software development life cycle model&apos;, <br />
+                    &apos;Contained 3 different environments, 5 playable characters, ranged and melee combat, inventory selection, a currency system, and much more&apos;, <br />
+                    &apos;Utilized Blender to enhance the effects and animations of pve combat&apos;
                   ], <br />
-                  technologies: [ "Unity", "Blender", "C#" ]
+                  technologies: [ &quot;Unity&quot;, &quot;Blender&quot;, &quot;C#&quot; ]
                   &#125;
                 </div>
               </div>

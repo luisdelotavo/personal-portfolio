@@ -10,7 +10,7 @@ const Experience = () => {
             </div>
             <div className="profile-text mb-2 relative z-10">
                 <h1>Experiences</h1>
-                <p>I've gained valuable work experience from the following companies: </p>
+                <p>I&apos;ve gained valuable work experience from the following companies:</p>
             </div>
 
             <div className="experience-card relative z-10">
