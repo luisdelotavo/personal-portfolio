@@ -7,13 +7,15 @@ import Projects from "@/components/Projects";
 export default function Home() {
   return (
 
-    <>
+    <div className="website-container">
+    <div className="content">
     <NavigationBar/>
     <About/>
     <Experience/>
     <Projects/>
     <Footer/>
-    </>
-
+    </div>
+    </div>
+    
   );
 }

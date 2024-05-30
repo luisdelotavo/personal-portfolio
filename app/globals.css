@@ -14,9 +14,16 @@ html {
   overflow-x: hidden;
 }
 
-.section-container {
-  margin-left: 27vw; 
-  margin-right: 27vw;
+.website-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+  justify-items: start; 
+  min-height: 100vh; 
+}
+
+.content {
+  grid-column: 2 / 3; 
+  width: 100%;
 }
 
 /* Navigation bar
@@ -26,8 +33,6 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 17vh;
-  margin-left: 27vw; 
-  margin-right: 27vw;
 }
 
 .nav-links {
@@ -128,19 +133,19 @@ nav {
 }
 
 @keyframes one{
-  0%{left: 0px; top: 0px;}
-  25%{left: 100px; top: 70px;}
-  50%{left: 30px; top: 150px;}
-  75%{left: 50px; top: 100px;}
-  100%{left: 0px; top: 0px;}
+  0%{left: 0px; top: 0px; background-position: 0% -50%;}
+  25%{left: 100px; top: 70px; background-position: 50% -100%;}
+  50%{left: 30px; top: 150px; background-position: 100% -50%;}
+  75%{left: 50px; top: 100px; background-position: 50% 0%;}
+  100%{left: 0px; top: 0px; background-position: 0% -50%;}
 }
 
 @keyframes two{
-  0%{left: 0px; top: 0px;}
-  25%{left: 50px; top: 10px;}
-  50%{left: 100px; top: 50px;}
-  75%{left: 50px; top: 100px;}
-  100%{left: 0px; top: 0px;}
+  0%{left: 0px; top: 0px; background-position: 0% 50%;}
+  25%{left: 50px; top: 10px; background-position: 50% 0%;}
+  50%{left: 100px; top: 50px; background-position: 100% -50%;}
+  75%{left: 50px; top: 100px; background-position: 50% 0%;}
+  100%{left: 0px; top: 0px; background-position: 0% 50%;}
 }
 
 .opacity-50{
