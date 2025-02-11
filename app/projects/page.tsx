@@ -29,7 +29,7 @@ const ProjectsPage: React.FC = () => {
                 alt="Stockr project screenshot"
                 width={200}
                 height={150}
-                className="w-full md:w-auto"
+                className="w-full md:w-auto shadow-lg"
               />
             </a>
           </div>
@@ -54,7 +54,7 @@ const ProjectsPage: React.FC = () => {
                 alt="London Transit Delays Dashboard project screenshot"
                 width={200}
                 height={150}
-                className="w-full md:w-auto"
+                className="w-full md:w-auto shadow-lg"
               />
             </a>
           </div>
@@ -79,7 +79,7 @@ const ProjectsPage: React.FC = () => {
                 alt="Cardio Risk Engine project screenshot"
                 width={200}
                 height={150}
-                className="w-full md:w-auto"
+                className="w-full md:w-auto shadow-lg"
               />
             </a>
           </div>
