@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row items-center lg:items-start">
           {/* Left-hand side text content with negative margin on large screens */}
           <div className="lg:w-1/2 lg:-mt-7">
-            <h2 className="text-[3rem] font-bold tracking-[-0.1em]">Hello! I'm Luis,</h2>
+            <h2 className="text-[3rem] font-bold tracking-[-0.1em]">Hello! I&apos;m Luis,</h2>
             <h3 className="text-[3rem] font-bold mb-2 tracking-[-0.1em]">
               a software engineer from Canada.
             </h3>
@@ -20,15 +20,15 @@ export default function Home() {
               I am passionate about developing new technologies and am eager to learn new skills.
             </p>
             <p className="mb-2 text-[1rem] tracking-[-0.1em]">
-              I'm currently a student at Western University based in London, Ontario finishing my<br />
-              bachelor's degree in Software Engineering where I spent 5 years learning the fundamentals<br />
-              of engineering, design, and programming. Over the course of my studies, I've had the<br />
+              I&apos;m currently a student at Western University based in London, Ontario finishing my<br />
+              bachelor&apos;s degree in Software Engineering where I spent 5 years learning the fundamentals<br />
+              of engineering, design, and programming. Over the course of my studies, I&apos;ve had the<br />
               opportunity to work with both small and large, specialized and cross-functional teams and<br />
               have developed the ability to lead, collaborate, and create.
             </p>
             <p className="mb-2 text-[1rem] tracking-[-0.1em]">
               My interests include artificial intelligence/machine learning, blockchain, and data cloud<br />
-              management. If you're here recruiting, you should hire me...?
+              management. If you&apos;re here recruiting, you should hire me...?
             </p>
             <div className="flex space-x-2 text-2xl">
               {/* Resume download */}
