@@ -1,28 +1,35 @@
-import { Inter } from "next/font/google";
-import "./globals.css";
-import { ReactNode } from 'react';
-import Head from 'next/head';
+// app/layout.tsx
+import './globals.css';
+import Navbar from './components/navbar';
+import React from 'react';
+import { Kaisei_HarunoUmi } from 'next/font/google';
 
-const inter = Inter({ subsets: ["latin"] });
+// Configure the font
+const kaisei = Kaisei_HarunoUmi({
+  subsets: ['latin'],  // Add other subsets if needed
+  weight: ['400', '700'], // Optional: specify weights if you need multiple weights
+});
 
 export const metadata = {
-  title: "Luis Delotavo's Portfolio",
-  description: "Explore my projects, technical skills, and professional experience.",
+  title: 'Luis Delotavo',
+  description: '',
 };
 
-interface RootLayoutProps {
-  children: ReactNode; 
+interface LayoutProps {
+  children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: RootLayoutProps) {
+const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <html lang="en">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-      </Head>
-      <body className={inter.className}>{children}</body>
+      <head />
+      {/* Apply the font by adding its className to the body */}
+      <body className={`${kaisei.className} overflow-y-hidden bg-white text-black tracking-[-0.1em]`}>
+        <Navbar />
+        <div className="container mx-auto px-4">{children}</div>
+      </body>
     </html>
-      );
-}
+  );
+};
+
+export default Layout;
