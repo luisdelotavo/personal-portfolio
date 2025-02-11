@@ -36,7 +36,7 @@ const ExperiencesPage: React.FC = () => {
             <h1 className="text-4xl font-bold tracking-[-0.1em]">Glendor</h1>
             <h2 className="text-lg"> May 2022 - Aug 2022 </h2>
             <p className="text-lg mt-2">
-              Glendor is an innovative startup pioneering healthcare data security by leveraging advanced AI, they developed the PHI Sanitizer—an AI-based system that automatically removes PHI from medical images and metadata—empowering healthcare providers to protect patient privacy while safely sharing critical data.
+              Glendor is an innovative startup pioneering healthcare data security by leveraging advanced AI, they developed the PHI Sanitizer—an AI-based system that automatically removes PHI from medical images and metadata, empowering healthcare providers to protect patient privacy while safely sharing critical data.
             </p>
           </div>
           <div className="w-full md:w-1/4 mt-4 md:mt-0 md:ml-4 flex justify-center">
