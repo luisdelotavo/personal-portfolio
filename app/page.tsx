@@ -47,7 +47,7 @@ export default function Home() {
               {/* GitHub */}
               <a
                 className="hover:text-gray-700"
-                href="https://github.com/luisdelotavo/luisdelotavo"
+                href="https://github.com/luisdelotavo"
                 target="_blank"
                 rel="noopener noreferrer"
               >
