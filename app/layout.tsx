@@ -24,7 +24,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     <html lang="en">
       <head />
       {/* Apply the font by adding its className to the body */}
-      <body className={`${kaisei.className} overflow-y-hidden bg-white text-black tracking-[-0.1em]`}>
+      <body className={`${kaisei.className} bg-white text-black tracking-[-0.1em]`}>
         <Navbar />
         <div className="container mx-auto px-4">{children}</div>
       </body>
