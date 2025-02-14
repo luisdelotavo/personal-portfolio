@@ -15,7 +15,7 @@ const ExperiencesPage: React.FC = () => {
           <div className="w-full md:w-3/4 pr-6">
             <h1 className="text-4xl font-bold tracking-[-0.1em]">J.D. Power</h1>
             <h2 className="text-lg"> May 2023 - Aug 2024 </h2>
-            <p className="text-lg mt-2">
+            <p className="text-lg mt-2 tracking-[-0.08em]">
               J.D. Power is a trusted leader in consumer insights and market research, renowned for its rigorous data analysis and unbiased evaluations across diverse industries. Their award-winning studies drive improvements in product quality and customer satisfaction, helping businesses benchmark against best practices.
             </p>
           </div>
@@ -35,7 +35,7 @@ const ExperiencesPage: React.FC = () => {
           <div className="w-full md:w-3/4 pr-6">
             <h1 className="text-4xl font-bold tracking-[-0.1em]">Glendor</h1>
             <h2 className="text-lg"> May 2022 - Aug 2022 </h2>
-            <p className="text-lg mt-2">
+            <p className="text-lg mt-2 tracking-[-0.08em]">
               Glendor is an innovative startup pioneering healthcare data security by leveraging advanced AI, they developed the PHI Sanitizer—an AI-based system that automatically removes PHI from medical images and metadata, empowering healthcare providers to protect patient privacy while safely sharing critical data.
             </p>
           </div>

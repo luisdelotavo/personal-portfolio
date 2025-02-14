@@ -16,17 +16,17 @@ export default function Home() {
             <h3 className="text-[3rem] font-bold mb-2 tracking-[-0.1em]">
               a software engineer from Canada.
             </h3>
-            <p className="mb-2 text-[1rem] tracking-[-0.1em] text-lg">
+            <p className="mb-2 text-[1rem] tracking-[-0.08em] text-lg">
               I am passionate about developing new technologies and am eager to learn new skills.
             </p>
-            <p className="mb-2 text-[1rem] tracking-[-0.1em] text-lg">
+            <p className="mb-2 text-[1rem] tracking-[-0.08em] text-lg">
               I&apos;m currently a student at Western University based in London, Ontario finishing my<br />
               bachelor&apos;s degree in Software Engineering where I spent 5 years learning the fundamentals<br />
               of engineering, design, and programming. Over the course of my studies, I&apos;ve had the<br />
               opportunity to work with both small and large, specialized and cross-functional teams and<br />
               have developed the ability to lead, collaborate, and create.
             </p>
-            <p className="mb-2 text-[1rem] tracking-[-0.1em] text-lg">
+            <p className="mb-2 text-[1rem] tracking-[-0.08em] text-lg">
               My interests include artificial intelligence/machine learning, blockchain, and data cloud<br />
               management. If you&apos;re here recruiting, you should hire me...?
             </p>
