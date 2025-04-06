@@ -40,7 +40,7 @@ const ProjectsPage: React.FC = () => {
           <div className="w-full md:w-3/4 pr-6">
             <h1 className="text-4xl font-bold tracking-[-0.1em]">London Transit Delays | First Place at Western University: </h1>
             <p className="text-lg mt-2 tracking-[-0.08em]">
-              Secured first place in Western University's Software Engineering Capstone, outperforming over 30 teams in the graduating class. This dashboard delivers real-time insights into transit delays and weather conditions, helping city planners and commuters anticipate disruptions and adjust travel plans accordingly. By transforming raw data into actionable visualizations, it outlines the need for transit management to enhance the overall commuter experience.
+              Secured first place in Western University&apos;s Software Engineering Capstone, outperforming over 30 teams in the graduating class. This dashboard delivers real-time insights into transit delays and weather conditions, helping city planners and commuters anticipate disruptions and adjust travel plans accordingly. By transforming raw data into actionable visualizations, it outlines the need for transit management to enhance the overall commuter experience.
             </p>
           </div>
           <div className="w-full md:w-1/4 mt-4 md:mt-0 md:ml-4 flex justify-center">
