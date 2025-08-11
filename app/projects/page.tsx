@@ -20,7 +20,7 @@ const ProjectsPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/4 mt-4 md:mt-0 md:ml-4 flex justify-center">
             <a
-              href="https://www.stockr.info/"
+              href="https://github.com/luisdelotavo/stockr"
               target="_blank"
               rel="noopener noreferrer"
             >
